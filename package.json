@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "standard-version": "^9.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,5 +26,10 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "scripts": {
+    "release": "standard-version"
   }
 }
+
+
